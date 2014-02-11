@@ -1,0 +1,28 @@
+{
+  "name": "node-predictionio",
+  "version": "0.0.1",
+  "description": "Node module for predictionio",
+  "main": "./lib",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kennethklee/predictionio-node.git"
+  },
+  "keywords": [
+    "predictionio"
+  ],
+  "author": "Kenneth Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennethklee/predictionio-node/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~3.1.2"
+  },
+  "dependencies": {
+    "superagent": "~0.16.0"
+  }
+}
